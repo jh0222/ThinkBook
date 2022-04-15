@@ -1,0 +1,257 @@
+*{margin:0; padding: 0; border: 0;}
+ul{list-style: none;}
+li {list-style: none;}
+a{text-decoration: none; color: black;}
+
+/*.wrap {
+    width: 100%;
+    height: 900px;
+    background: rgba(0, 0, 0, .2);
+}*/
+
+
+body {
+    /*border: solid 5px  rgb(216,190,228);*/
+}
+header{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.headbar_search input{
+    width: 85%; 
+    height: 40%; 
+    margin-top: 5%; 
+    float: left; 
+    border: solid 3px rgb(216,190,228);;
+}
+.headbar_logo{
+    margin:left;
+    width: 10%;
+    height: 95px;
+}
+.headbar_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.headbar_search{
+    
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    
+}
+.headbar_login{
+    width: 20%;
+    height: 100%;
+    margin: right;
+}
+
+.headbar_login input{
+    background: rgb(216,190,228);;
+    border-radius: 8px; width: 45%; height: 40%; margin-top: 14%;
+}
+
+
+/*.menu_box{
+    background-color: cadetblue;
+    height: 50px;
+    width: 10%;
+    float: left;
+    margin-left: 3%;
+}
+
+.menu_box li{
+    float: left;
+    font-size: 22px;
+    color: white;
+    padding-top: 6%;
+    
+}
+.menu a{
+    
+    text-align: center;
+    
+    
+}*/
+.menu{
+    padding-left: 0;
+    background-color:#DBB5D6;
+    width: 100%;
+    height: 50px;
+}
+.menu_box_wrap {
+    width: 60%;
+    height: 50px;
+    
+}
+.menu_box_list{
+    width: 15%; 
+    height: 50px; 
+    background: rgba(0,0,0,.1); 
+    float: left; 
+    margin-left: 5%; 
+    text-align: center;
+    line-height: 50px;
+    
+    
+}
+.menu_box_wrap .menu_box_list:hover{
+    background-color: lavender;
+    color: black;
+}
+.menu_box_list>li>a {
+    width:22%; 
+    height:100%; 
+    background:rgba(0,0,0,.1); 
+    text-align:center;
+    color:white; 
+}
+.sub01 {
+    
+    height: 50px;
+    
+}
+
+.sub01_box{
+
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,.2);
+    display: block;
+    vertical-align: top;
+}
+
+section{
+    background: white;
+    width: 100%;
+    height: 400px;
+}
+
+.rank{
+    background: white;
+
+}
+
+.rank_bar{
+    background: rgb(216,190,228);
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.rank_bar p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.rank_lib{
+    background-color : rgb(196,157,214);
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    
+}
+.lib_fig{
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    background-color :rgb(216,190,228);
+    margin-left: 6%;
+    float: left;
+    margin-bottom: 4%;
+    
+}
+
+footer{
+    background: white;
+    width: 100%;
+    height: 280px;
+}
+
+.room_div{
+    background:rgb(196,157,214);
+    width: 35%;
+    height: 250px;
+    float: left;
+    margin-left: 10%;
+}
+
+.user_rank{
+    background:rgb(196,157,214);
+    width: 40%;
+    height: 250px;
+    float: right;
+    margin-right: 10%;
+}
+.room_div_bar{
+    background: rgb(216,190,228);
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.room_div_bar p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.room_list{
+    background-color: rgb(216,190,228);
+    width: 90%;
+    height: 50px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.user_rank_bar{
+    background: rgb(216,190,228);
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.user_rank_bar p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.user{
+    background: silver;
+    width: 25%;
+    height: 100px;
+    float: left;
+    margin: 5% 0 0 6%;
+    border-radius: 50%;
+}
+
+
+.user p {
+    text-align: center;
+    line-height: 100px;
+}
+
+.all_rank{
+    background: rgb(216,190,228);
+    width: 25%;
+    height: 30px;
+    float: right;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.all_rank p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}

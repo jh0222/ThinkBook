@@ -1,0 +1,109 @@
+*{margin:0; padding: 0; border: 0;}
+ul{list-style: none;}
+li {list-style: none;}
+a{text-decoration: none; color: black;}
+
+/* ����ũž */
+@media screen and (min-width:600px) {
+    
+    .side_bar{
+        
+        width: 15%;
+        height: 800px;
+        float: left;
+		border-right: 1px solid rgba(0,0,0,.2);
+    }
+    .side_bar p {
+        font-size: 18px;
+        margin: 5% 0 0 5%;
+    }
+    .main{
+        background:#F6F6F6;
+        width: 84.933%; 
+        height: 800px;
+        float: left;
+    }
+    
+
+    
+    .jumbotron form{
+    	
+    	width: 50%;
+    	height: 500px;
+    	box-shadow: 3px 3px 3px 3px gray;
+    }
+    .jumbotron form h2{
+    	text-align: center; 
+    	margin: 3% 0 3% 0;
+    }
+    .form-group input{
+    	box-shadow: 2px 2px 2px 2px gray;
+    	width:35%;
+    	height:30px; 
+    	margin-bottom: 2%;
+    }
+    .form-group-select{
+    	
+    	width:35%;
+    	height:30px; 
+    	margin-bottom: 3%;
+    }
+    .join_btt{
+    	background:rgba(0,0,0,.5);
+    	width:36%;
+    	height:30px; 
+    	margin-bottom: 1%;
+    	color:white;
+    	font-size: 18px;
+    }
+    .btn-group{
+    	margin-bottom: 3%;
+    }
+}
+
+
+/* ����� */
+@media screen and (max-width:599px) {
+    
+    .side_bar{
+        
+        display: none;
+    }
+    
+    
+
+    .join_form ul{
+        margin-top: 3%;
+    }
+	.jumbotron form{
+    	box-shadow: 2px 2px 2px 2px gray;
+    	width: 80%;
+    	height: 550px;
+    }
+    .jumbotron form h2{
+    	text-align: center; 
+    	margin: 3% 0 3% 0;
+    }
+    .form-group input{
+    	box-shadow: 2px 2px 2px 2px gray;
+    	width:50%;
+    	height:30px; 
+    	margin-bottom: 2.5%;
+    }
+    .form-group-select{
+    	box-shadow: 2px 2px 2px 2px gray;
+    	width:50%;
+    	height:30px; 
+    	margin-bottom: 2%;
+    }
+    .join_btt{
+    	background:rgba(0,0,0,.3);
+    	width:51%;
+    	height:30px;
+    	
+    	font-size: 18px;
+    }
+    .btn-group{
+    	margin-bottom: 3%;
+    }
+}

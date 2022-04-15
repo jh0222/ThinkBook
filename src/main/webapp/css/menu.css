@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu_wrap .dep1{
+    font-size: 0;
+}
+.menu_wrap .dep1 > li{
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    background: #ddd;
+    text-align: center;
+    font-size: 15px;
+}
+.menu_wrap .dep1 > li > a{
+    display: block;
+}
+.menu_wrap .dep2 {
+    display: none;
+}
+.menu_wrap .dep1 > li > a:hover ~ .dep2{
+    display: block;
+}

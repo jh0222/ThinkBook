@@ -1,0 +1,225 @@
+*{margin:0; padding: 0; border: 0;}
+ul{list-style: none;}
+li {list-style: none;}
+a{text-decoration: none; color: black;}
+
+/*.wrap {
+    width: 100%;
+    height: 900px;
+    background: rgba(0, 0, 0, .2);
+}*/
+
+
+body {
+    /*border: solid 5px  rgb(216,190,228);*/
+}
+header{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.headbar_search input{
+    width: 85%; 
+    height: 40%; 
+    margin-top: 5%; 
+    float: left; 
+    border: solid 3px rgb(216,190,228);;
+}
+.headbar_logo{
+    margin:left;
+    width: 10%;
+    height: 95px;
+}
+.headbar_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.headbar_search{
+    
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    
+}
+.headbar_login{
+    width: 20%;
+    height: 100%;
+    margin: right;
+}
+
+.headbar_login input{
+    background: rgb(216,190,228);;
+    border-radius: 8px; width: 45%; height: 40%; margin-top: 14%;
+}
+
+.menu{
+    padding-left: 0;
+    background-color:#DBB5D6;
+    width: 100%;
+    height: 50px;
+}
+/*.menu_box{
+    background-color: cadetblue;
+    height: 50px;
+    width: 10%;
+    float: left;
+    margin-left: 3%;
+}
+
+.menu_box li{
+    float: left;
+    font-size: 22px;
+    color: white;
+    padding-top: 6%;
+    
+}
+.menu a{
+    
+    text-align: center;
+    
+    
+}*/
+
+/*.menu_box {
+    background: rgba(0,255,255,.3);
+    width: 100%;
+    height: 50px;
+}
+.menu_box_list{
+    width: 10%; 
+    height: 100%; 
+    background: rgba(0,0,0,.1); 
+    float: left; 
+    margin-left: 5%; 
+    text-align: center;
+    padding-top: 5px;
+}
+
+.menu_box_list>li>a {
+    width:22%; 
+    background:rgba(0,0,0,.1); 
+    text-align:center;
+    color:white; }
+
+.sub01{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,255,.3);
+}
+
+.sub01_box{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,255,.3);
+}
+*/
+.menu_box {
+    background: rgb(196,157,214);
+    width: 100%;
+    height: 42px;
+}
+.menu_box ul,li{
+    list-style: none;
+}
+.menu_box a{
+    text-decoration: none;
+    color:inherit;
+}
+.menu_box .menu_box_list{
+    font-size: 0;
+    line-height: initial;
+}
+.menu_box .menu_box_list>li{
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    background:rgb(196,157,214);
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.menu_box .menu_box_list>li:hover >a{
+    background-color: lavender;
+    color: black;
+}
+.menu_box .sub01>li:hover{
+    background-color: lavender;
+    color: black;
+}
+.menu_box .menu_box_list>li:hover>.sub01{
+    display: block;
+}
+.menu_box .menu_box_list>li>a:hover ~ .sub01{
+    display: block;
+}
+.menu_box .menu_box_list>li>a{
+    display: block;
+    padding: 10px 0;
+}
+.menu_box .sub01{
+    display: none;
+    background: rgb(227, 208, 238);
+}
+.menu_box .sub01 a{
+    display: block;
+    padding: 10px 0;
+}
+
+.side_bar{
+    background-color: rgba(0, 0, 0, .3);;
+    width: 15%;
+    height: 800px;
+    float: left;
+
+}
+.side_bar p {
+    font-size: 18px;
+    margin: 5% 0 0 5%;
+}
+
+.genre_box{
+    background: white;
+    width: 85%;
+    height: 800px;
+    float: left;
+}
+
+.ge_novel{
+    width: 35%;
+    height: 65px;
+    border-radius: 10px;
+    border : 4px solid #866f8b;
+    background-color :rgb(216,190,228);
+    margin-left: 11%;
+    float: left;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num_box {
+    width: 1130px;
+    height: 50px;
+    background-color :white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num_box a:hover {
+    text-decoration: underline;
+}
+
+.num {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

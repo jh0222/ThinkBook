@@ -1,0 +1,343 @@
+*{margin:0; padding: 0; border: 0;}
+ul{list-style: none;}
+li {list-style: none;}
+a{text-decoration: none; color: black;}
+
+/* 데스크탑 */
+@media screen and (min-width:600px) {
+    
+
+    section{
+        background: #F7F7F7;
+        width: 100%;
+        height: 430px;
+    }
+
+    
+
+    .rank_bar{
+        
+        width: 40%;
+        height: 60px;
+        margin: auto;
+        margin-bottom: 3%;
+        box-shadow: 2px 2px 2px 2px gray;
+    }
+
+
+
+    .rank_bar p {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        padding-top: 1%;
+        font-family: 'Jua', sans-serif;
+    }
+
+    .rank_lib{
+        
+        width: 70%;
+        height: 410px;
+        margin: auto;
+        
+    }
+    .lib_fig{
+        width: 20%;
+        height: 280px;
+        background-color :rgba(0,0,0,.1);
+        margin-left: 10%;
+        float: left;
+       
+        
+    }
+
+
+    footer{
+        background: white;
+        width: 100%;
+        height: 280px;
+    }
+
+    .room_div{
+        border: 1px solid #C8C8C8;
+        width: 35%;
+        height: 250px;
+        float: left;
+        margin-left: 15%;
+        background: #F6F6F6;
+    }
+
+    .user_rank{
+        border: 1px solid #C8C8C8;
+        width: 25%;
+        height: 250px;
+        float: right;
+        margin-right: 15%;
+        background: #F6F6F6;
+    }
+    .room_div_bar{
+        
+        width: 100%;
+        height: 35px;
+        background:#C8C8C8;
+        margin-bottom: 10px;
+        border-bottom:  1px solid #C8C8C8; 
+        
+    }
+    .room_div_bar p{
+    	
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    .room_list{
+        
+        width: 100%;
+        height: 50px;
+        margin-bottom: 5%;
+        border-bottom:  1px solid #C8C8C8;
+    }
+
+    .room_list p{
+        margin-left: 3%;
+        line-height: 50px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    .user_rank_bar{
+        background:#C8C8C8;
+        width: 100%;
+        height: 30px;
+        border-bottom:  1px solid #C8C8C8;
+        margin-bottom: 10px;
+    }
+    .user_rank_bar p{
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        font-family: 'Jua', sans-serif;
+    }
+	
+	.user_wrap{
+        
+        width: 80%;
+        height: 170px;
+        float: left;
+        margin: 1% 0 0 3%;
+        
+    }
+	
+    .user{
+        background: silver;
+        width: 100%;
+        height: 40px;
+        float: left;
+        margin-left: 8%;
+        margin-bottom: 10%;
+        box-shadow: 2px 2px 2px 2px gray;
+        
+    }
+	
+	
+	
+	
+
+    .user p {
+        text-align: center;
+        line-height: 40px;
+        font-family: 'Jua', sans-serif;
+    }
+	
+    .all_rank{
+        width: 30%;
+        height: 30px;
+        float: right;
+        margin-top: 1px;
+        margin-right: 1px;
+        border:1.5px solid #BDBDBD;
+        background: silver;
+        box-shadow: 1px 1px 1px 1px gray;
+    }
+
+    .all_rank p {
+        font-size: 15px;
+        text-align: center;
+        line-height: 30px;
+        font-family: 'Jua', sans-serif;
+    }
+}
+
+
+/* 嶺뚮ㅄ維��뚳옙�뜝�럩逾� */
+@media screen and (max-width:599px) {
+    
+
+    section{
+        background: #F7F7F7;
+        width: 100%;
+        height: 320px;
+        border-bottom: 2px solid #c8c8c8;
+    }
+
+    .rank{
+        background: white;
+
+    }
+
+    .rank_bar{
+        box-shadow: 2px 2px 2px 2px gray;
+        width: 55%;
+        height: 40px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .rank_bar p {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        font-family: 'Jua', sans-serif;
+        line-height: 50px;
+    }
+
+    .rank_lib{
+        
+        width: 80%;
+        height: 300px;
+        margin: auto;
+        
+    }
+    .lib_fig{
+        width: 27%;
+        height: 170px;
+        
+        background-color :rgba(0,0,0,.1);
+        margin-left: 4.8%;
+        float: left;
+        margin-bottom: 4%;
+        margin-top: 5%;
+        
+    }
+
+    
+
+
+
+    footer{
+        background: white;
+        width: 100%;
+        height: 560px;
+        margin-top: 4%;
+    }
+
+    .room_div{
+        border: 1px solid #C8C8C8;
+        width: 80%;
+        height: 250px;
+        float: left;
+        margin-left: 10%;
+        border-bottom:  1px solid #C8C8C8;
+        background: #F6F6F6;
+    }
+
+    .user_rank{
+        border:  1px solid #C8C8C8;
+        width: 80%;
+        height: 250px;
+        float: right;
+        margin-right: 10%;
+        margin-top: 5%;
+        background: #F6F6F6;
+    }
+    .room_div_bar{
+        border-bottom:  1px solid #C8C8C8;
+        width: 100%;
+        height: 35px;
+        margin-bottom: 10px;
+        background: #C8C8C8;
+    }
+    .room_div_bar p{
+        text-align: center;
+        line-height: 35px;
+        font-size: 20px;
+        font-family: 'Jua', sans-serif;
+        
+    }
+
+    .room_list{
+        
+        width: 100%;
+        height: 54px;
+        margin-bottom: 5%;
+        border-bottom:  1px solid #BDBDBD;
+    }
+
+    .room_list p{
+        margin-left: 3%;
+        line-height: 40px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    .user_rank_bar{
+        border:  1px solid #C8C8C8;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+        background: #C8C8C8;
+    }
+    .user_rank_bar p{
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        font-family: 'Jua', sans-serif;
+    }
+
+    
+	.user_wrap{
+        
+        width: 80%;
+        height: 170px;
+        float: left;
+        margin: 1.5% 0 0 3%;
+        
+    }
+	
+    .user{
+        background: silver;
+        width: 100%;
+        height: 40px;
+        float: left;
+        margin-left: 8%;
+        margin-bottom: 10%;
+        box-shadow: 2px 2px 2px 2px gray;
+        
+    }
+	
+	
+    .user p {
+        text-align: center;
+        line-height: 40px;
+		font-family: 'Jua', sans-serif;
+    }
+
+    .all_rank{
+        width: 30%;
+        height: 28px;
+        float: right;
+        margin-top: 1px;
+        margin-right: 1px;
+        border:1.5px solid #BDBDBD;
+        background: silver;
+        box-shadow: 1px 1px 1px 1px gray;
+    }
+
+    .all_rank p {
+   		font-family: 'Jua', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+        
+    }
+}
